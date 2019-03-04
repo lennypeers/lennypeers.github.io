@@ -1,0 +1,310 @@
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+  display: none;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(4.jpg) ;
+  background-repeat: no-repeat;
+}
+.box{
+  width: 475px;
+  height: 375px;
+  background: rgba(120, 120, 120, 0.5);
+  padding: 40px;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  position: absolute;
+  border-radius: 50px;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      transition: 500ms;
+      transition-timing-function: ease-in-out;
+}
+.box:hover{
+    background: rgba(120, 120, 120, 0.4);
+    width: 520px;
+    height: 375px;
+    border-radius: 50px;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+}
+.box-img:hover{
+  border-radius: 50%;
+  width: 225px;
+  height: 225px;
+}
+.box h1{
+  font-size: 25px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.box h1:hover{
+    font-size: 35px;
+    color: #b9aeae;
+}
+.box h5{
+  font-size: 13px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+}
+.box h5:hover{
+  font-size: 17px;
+  color: #b9aeae;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+/*  4L gang */
+
+.svg{
+  width: 50px;
+  height: 50px;
+  fill:#FFF;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+  animation: chance1 5s infinite;
+}
+.svg:hover{
+  fill: #b9aeae;
+  width: 60px;
+  height: 60px;
+}
+@keyframes chance1 {
+  25%{
+    transform: translate(50px, 20px,);
+  }
+  50%{
+    transform: translate(20px, 0);
+  }
+  75%{
+    transform: translate(10,-5);
+  }
+}
+/*bg des boss*/
+
+
+/*.ape, .ape:after{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.ape:after {
+    background: rgba(0, 0, 0, 0);
+}
+.ape li span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+    animation: chance2 36s linear infinite 0s;
+  }
+.ape li:nth-child(1) span {
+    background-image: url(1.jpg);
+}
+.ape li:nth-child(2) span {
+    background-image: url(2.jpg);
+    animation-delay: 6s;
+}
+.ape li:nth-child(3) span {
+    background-image: url(3.jpg);
+    animation-delay: 12s;
+}
+.ape li:nth-child(4) span {
+    background-image: url(4.jpg);
+    animation-delay: 18s;
+}
+.ape li:nth-child(5) span {
+    background-image: url(5.jpg);
+    animation-delay: 24s;
+}
+.ape li:nth-child(6) span {
+    background-image: url(6.jpg);
+    animation-delay: 30s;
+}
+@keyframes chance2 {
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    5% { opacity: 1; animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+*/
+@media only screen and (max-width: 767px) {
+  .box{
+    width: 205px;
+    height: 200px;
+    background: rgba(120, 120, 120, 0.5);
+    padding: 40px;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    position: absolute;
+    border-radius: 50px;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+  }
+  .box:hover{
+      background: rgba(120, 120, 120, 0.4);
+      width: 215px;
+      height: 210px;
+      border-radius: 50px;
+  }
+.box-img{
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+  }
+  .box-img:hover{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  .box h1{
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.box h1:hover{
+    font-size: 25px;
+    color: #b9aeae;
+}
+.box h5{
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box h5:hover{
+  font-size: 15px;
+  color: #b9aeae;
+}
+.svg{
+  width: 30px;
+  height: 30px;
+  fill:#FFF;
+}
+.svg:hover{
+  fill: #b9aeae;
+  width: 40px;
+  height: 40px;
+}
+.box li{
+  display: inline-block;
+  margin: 2px;
+  list-style: none;
+}
+}
+
+
+
+/*iPhone SE and co */
+
+
+
+@media only screen and (max-width: 567px) {
+  .box{
+    width: 180px;
+    height: 170px;
+    background: rgba(120, 120, 120, 0.5);
+    padding: 40px;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    position: absolute;
+    border-radius: 50px;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+  }
+  .box:hover{
+      background: rgba(120, 120, 120, 0.4);
+      width: 200px;
+      height: 200px;
+      border-radius: 50px;
+  }
+.box-img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+  .box-img:hover{
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+  }
+  .box h1{
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.box h1:hover{
+    font-size: 20px;
+    color: #b9aeae;
+}
+.box h5{
+  font-size: 9px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box h5:hover{
+  font-size: 11px;
+  color: #b9aeae;
+}
+.svg{
+  width: 27px;
+  height: 27px;
+  fill:#FFF;
+}
+.svg:hover{
+  fill: #b9aeae;
+  width: 30px;
+  height: 30px;
+}
+.box li{
+  display: inline-block;
+  margin: 01px;
+  list-style: none;
+}
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>booh</title>
+  <meta charset="utf-8">
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="Website of Ny Aina"/>
+  <meta name="description" content="Website of Ny Aina" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="mystyle2.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128562547-1"></script>
+        <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+         gtag('config', 'UA-128562547-1');
+        </script>
+</head>
+<body  class="home-body">
+
+        <div id="home-girl">
+               <!-- <div class="glow"></div> -->
+
+                <a href="http://www.lenny.tk/">
+
+            <img src="girl_crop_4.gif" alt="girl" style="visibility:visible;max-width:100%;max-height:100vh;"/>
+            <img src="radio6.gif" alt="hazard" id="home-gif"/>
+
+           </a>
+
+        </div>
+            <script src="jquery.min.js"></script>
+            <script>
+           var audio = new Audio("music.mp3");
+           $(audio).bind('ended', function() {
+               audio.currentTime = 0;
+           })
+
+           $(window).bind('touchstart load mousemove', function() {
+               if(audio.paused) {
+                   audio.play()
+               }
+           });
+       </script>
+
+
+</body>
+</html>

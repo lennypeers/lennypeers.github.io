@@ -1,0 +1,85 @@
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+  display: none;
+}
+html {
+    height: 1px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    min-height: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+body {
+    padding-bottom: 80px;
+}
+.glow {
+    -webkit-box-shadow: inset 0px 0px 20px 20px rgba(0,0,0,0.15);
+	box-shadow: inset 0px 0px 20px 20px rgba(0,0,0,0.15);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: 10;
+}
+.no-scroll-cart {
+    height: 100%;
+    display: block;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 0 !important;
+}
+.no-scroll-cart .content {
+    overflow: hidden;
+}
+.no-scroll-cart nav {
+    z-index: -3;
+}
+
+.no-scroll-nav {
+    height: 100%;
+    overflow: hidden;
+  }
+.home-body {
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+}
+#home-girl {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 85%;
+    background-image:url('/img/girl_crop_4.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    position: relative;
+    color: #4A4A4A;
+    cursor: pointer;
+    overflow: hidden;
+}
+#home-girl > div {
+    position: absolute;
+    bottom: 11%;
+    width: 100%;
+    color: black;
+    padding-left: 5%;
+    font-size: 18px;
+}
+#home-gif {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-40%);
+    max-width: 21vh;
+    bottom: 14%;
+    border-radius: 100%;
+    width: 33%;
+}
