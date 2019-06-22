@@ -1,6 +1,3 @@
-img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
-  display: none;
-}
 body{
   margin: 0;
   padding: 0;
@@ -56,7 +53,6 @@ body{
 
 .box h1:hover{
     font-size: 35px;
-    color: #b9aeae;
 }
 .box h5{
   font-size: 13px;
@@ -67,7 +63,6 @@ body{
 }
 .box h5:hover{
   font-size: 17px;
-  color: #b9aeae;
 }
 .box p{
   text-align: justify;
@@ -93,7 +88,6 @@ ul{
   animation: chance1 5s infinite;
 }
 .svg:hover{
-  fill: #b9aeae;
   width: 60px;
   height: 60px;
 }
@@ -207,7 +201,6 @@ ul{
 }
 .box h1:hover{
     font-size: 25px;
-    color: #b9aeae;
 }
 .box h5{
   font-size: 11px;
@@ -216,7 +209,6 @@ ul{
 }
 .box h5:hover{
   font-size: 15px;
-  color: #b9aeae;
 }
 .svg{
   width: 30px;
@@ -224,7 +216,6 @@ ul{
   fill:#FFF;
 }
 .svg:hover{
-  fill: #b9aeae;
   width: 40px;
   height: 40px;
 }
@@ -281,7 +272,6 @@ ul{
 }
 .box h1:hover{
     font-size: 20px;
-    color: #b9aeae;
 }
 .box h5{
   font-size: 9px;
@@ -290,7 +280,6 @@ ul{
 }
 .box h5:hover{
   font-size: 11px;
-  color: #b9aeae;
 }
 .svg{
   width: 27px;
@@ -298,7 +287,6 @@ ul{
   fill:#FFF;
 }
 .svg:hover{
-  fill: #b9aeae;
   width: 30px;
   height: 30px;
 }
