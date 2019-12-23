@@ -1,6 +1,3 @@
-img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
-  display: none;
-}
 html {
     height: 1px;
 }
@@ -14,36 +11,6 @@ html, body {
 body {
     padding-bottom: 80px;
 }
-.glow {
-    -webkit-box-shadow: inset 0px 0px 20px 20px rgba(0,0,0,0.15);
-	box-shadow: inset 0px 0px 20px 20px rgba(0,0,0,0.15);
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    pointer-events: none;
-    z-index: 10;
-}
-.no-scroll-cart {
-    height: 100%;
-    display: block;
-    position: fixed;
-    width: 100%;
-    padding-bottom: 0 !important;
-}
-.no-scroll-cart .content {
-    overflow: hidden;
-}
-.no-scroll-cart nav {
-    z-index: -3;
-}
-
-.no-scroll-nav {
-    height: 100%;
-    overflow: hidden;
-  }
 .home-body {
     height: 100vh;
     overflow: hidden;
