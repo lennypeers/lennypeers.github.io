@@ -1,6 +1,5 @@
 ---
 title: ./lennypeers
-date: \today
 ---
 
 # Hello word
